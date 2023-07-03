@@ -34,6 +34,7 @@
         android:orientation="vertical"
         android:padding="16dp"
         android:layout_marginVertical="26dp"
+        android:layout_marginTop="32dp"
         android:backgroundTint="@color/white"
         android:background="@drawable/rounded_courner">
         <EditText
@@ -42,18 +43,22 @@
             android:hint="Title"
             android:textSize="20dp"
             android:textStyle="bold"
+            android:textColor="@color/black"
 
             android:id="@+id/title_edit_text"
             android:padding="12dp"/>
+
         <EditText
+            android:id="@+id/content_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Content"
-            android:textSize="20dp"
-            android:minLines="16"
+
             android:gravity="top"
-            android:id="@+id/content_edit_text"
-            android:padding="12dp"/>
+            android:hint="Content"
+            android:minLines="18"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
 
     </LinearLayout>
 
